@@ -13,9 +13,9 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #fff;
+  color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #333;
+  background-color: #fff;
   border: 1px solid #fff;
 }
 
@@ -32,29 +32,10 @@ body {
 body {
   color: #fff;
   text-align: center;
-}
-
-legend {
-  color: #fff;
-}
-
-label {
-  color: #fff;
-  font-family: Tahoma, Geneva, sans-serif;  float: left;
-  width: 9em;
-  margin-right: 1em;
-  text-align: right;
-  line-height: 2.5em;
-}
-
-textarea {
-  resize: none;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.well {
-    background: rgb(51, 51, 51);
-}
 .site-wrapper {
   display: table;
   width: 100%;
@@ -97,7 +78,7 @@ textarea {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #333; /* IE8 proofing */
+  color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
