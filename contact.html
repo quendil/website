@@ -26,40 +26,59 @@
     <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="well well-sm">
-          <form class="form-horizontal" action="handleform.py" method="post">
-            <fieldset>
-              <legend class="text-center header">Contact us</legend>
+    <div class="site-wrapper">
 
-              <div class="form-group">
-                <label for="name">Name :</label>
-                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                <div class="col-md-8">
-                  <input type="text" id="name" name="user_name" class="form-control" />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="mail">E-mail :</label>
-                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                <div class="col-md-8">
-                  <input type="email" id="mail" name="user_email" class="form-control" />
-                </div>
-              </div>
-              <div class="form-group">
-                  <label for="msg">Message :</label>
-                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                  <div class="col-md-8">
-                    <textarea class="form-control" id="message" name="user_message" rows="7"></textarea>
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Website on construction</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="well well-sm">
+              <form class="form-horizontal" action="handleform.py" method="post">
+                <fieldset>
+                  <legend class="text-center header">Contact us</legend>
+
+                  <div class="form-group">
+                    <label for="name">Name :</label>
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                    <div class="col-md-8">
+                      <input type="text" id="name" name="user_name" placeholder="Your name" class="form-control" />
+                    </div>
                   </div>
-              </div>
-              
-              <div class="button">
-                  <button type="submit">Send your message</button>
-              </div>
-            </fieldset>
-          </form>
+                  <div class="form-group">
+                    <label for="mail">E-mail :</label>
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                    <div class="col-md-8">
+                      <input type="email" id="mail" name="user_email" placeholder="Your e-mail" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="msg">Message :</label>
+                      <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                      <div class="col-md-8">
+                        <textarea class="form-control" id="message" name="user_message" rows="7" placeholder="Enter your message here."></textarea>
+                      </div>
+                  </div>
+                  
+                  <div class="button">
+                      <button type="submit">Send your message</button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>

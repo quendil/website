@@ -27,20 +27,23 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: #99bbff;
 }
 body {
   color: #333;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 label {
   float: left;
-  width: 10em;
-  margin-right: 5em;
+  width: 9em;
+  margin-right: 1em;
   text-align: right;
   line-height: 2.5em;
+}
+
+textarea {
+  resize: none;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
